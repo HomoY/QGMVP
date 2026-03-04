@@ -148,19 +148,19 @@ There are also configs in `./config` folder including:
 # Reference
 
 ```
-Yuan, H., Long, C. K., Lepage, H. V., & Barnes, C. H. W. (2024). Quantifying the advantages of applying quantum approximate algorithms to portfolio optimisation. arXiv preprint arXiv:2410.16265. https://arxiv.org/abs/2410.16265
+Yuan, H., Long, C. K., Lepage, H. V. & Barnes, C. H. Quantifying the advantages of applying quantum approximate algorithms to portfolio optimisation. Quantum Science and Technology (2026) doi:http://iopscience.iop.org/article/10.1088/2058-9565/ae4a48.
 ```
 
 ```bibtex
-@misc{yuan2024quantifyingadvantagesapplyingquantum,
-      title={Quantifying the advantages of applying quantum approximate algorithms to portfolio optimisation}, 
-      author={Haomu Yuan and Christopher K. Long and Hugo V. Lepage and Crispin H. W. Barnes},
-      year={2024},
-      eprint={2410.16265},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2410.16265}
+@Article{10.1088/2058-9565/ae4a48,
+  author   = {Yuan, Haomu and Long, Christopher K. and Lepage, Hugo V. and Barnes, Crispin HW},
+  journal  = {Quantum Science and Technology},
+  title    = {Quantifying the advantages of applying quantum approximate algorithms to portfolio optimisation},
+  year     = {2026},
+  abstract = {We present a quantum algorithm for portfolio optimisation. Specifically, We present an end-to-end quantum approximate optimisation algorithm (QAOA) to solve the discrete global minimum variance portfolio (DGMVP) model. This model finds a portfolio of risky assets with the lowest possible risk contingent on the number of traded assets being discrete. We provide a complete pipeline for this model and analyse its viability for noisy intermediate-scale quantum computers. We design initial states, a cost operator, and ansätze within a binary encoding. Further, we perform numerical simulations to analyse several optimisation routines, including layerwise optimisation, utilising COBYLA and dual annealing. Finally, we consider the impacts of thermal relaxation and stochastic measurement noise. We find dual annealing with a layerwise optimisation routine provides the most robust performance. We observe that realistic thermal relaxation noise levels preclude quantum advantage. However, stochastic measurement noise will dominate when hardware sufficiently improves. Within this regime, we numerically demonstrate a favourable scaling in the number of shots required to obtain the global minimum---an indication of quantum advantage in portfolio optimisation.},
+  doi      = {http://iopscience.iop.org/article/10.1088/2058-9565/ae4a48},
 }
+
 ```
 
 
