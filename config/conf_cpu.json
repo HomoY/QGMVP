@@ -1,0 +1,8 @@
+{
+    "model": {},
+    "qiskit": {
+        "noise": false,
+        "thread": 12,
+        "seed_simulator": 42
+    }
+}

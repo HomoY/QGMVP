@@ -1,0 +1,12 @@
+{
+    "qiskit": {
+        "noise": {
+            "model": "thermal",
+            "qubit": "12"
+        },
+        "CPU": {
+            "method": "statevector"
+        },
+        "thread": 12
+    }
+}

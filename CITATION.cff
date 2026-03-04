@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: QGMVP
+message: >-
+  If you use Quantum solver to the Global Minimal Variance Portfolio (QGMVP) library please cite the accompanying paper:
+    
+    Yuan, H., Long, C. K., Lepage, H. V. & Barnes, C. H. Quantifying the advantages 
+    of applying quantum approximate algorithms to portfolio optimisation. 
+    Quantum Science and Technology (2026) doi:http://iopscience.iop.org/article/10.1088/2058-9565/ae4a48.
+
+  Additionally, you can reference this code base using this CFF file.
+type: software
+authors:
+  - given-names: Haomu
+    family-names: Yuan
+    email: hy374@cam.ac.uk
+    orcid: 'https://orcid.org/0009-0001-4941-5448'
+    affiliation: University of Cambridge
+repository-code: 'https://github.com/HomoY/QGMVP'
+abstract: >-
+  A Python library for a Quantum solver to the Global
+  Minimal Variance Portfolio (QGMVP). 
+keywords:
+  - quantum algorithm
+  - portfolio optimization
+  - QAOA
+license: Apache-2.0

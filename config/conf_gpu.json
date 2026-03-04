@@ -1,0 +1,11 @@
+{
+    "model": {},
+    "qiskit": {
+        "noise": false,
+        "GPU": {
+            "method": "statevector"
+        },
+        "seed_simulator": 42,
+        "thread": 12
+    }
+}

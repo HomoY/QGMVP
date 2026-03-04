@@ -1,0 +1,59 @@
+{
+    "name": "GMVPOpt",
+    "parameters": {
+        "save": true,
+        "seed": 42,
+        "enco": {
+            "n": 5,
+            "N": 15
+        },
+        "object": {
+            "name": "gmvp",
+            "method": "test_sets",
+            "test_sets": "rand_assets_short_market_n5N15_slec",
+            "rand": false,
+            "amplify": 1,
+            "verbose": true
+        },
+        "bf_qd_run": true,
+        "run": {
+            "runT": 100,
+            "runMutiple": true
+        },
+        "circuit": {
+            "qCircAna": {
+                "ini": "ws",
+                "cost": "Bubble",
+                "mixer": {
+                    "name": "Bubble",
+                    "distance": 2
+                }
+            },
+            "layer": {
+                "p": 2,
+                "CirParams": {
+                    "rand": true,
+                    "fix": false,
+                    "file": false,
+                    "verbose": true
+                }
+            },
+            "circuit_measure": true
+        },
+        "optimizer": {
+            "method": "Annealing",
+            "optTar": "mean",
+            "numIter": 16,
+            "numOuterIter": 2000
+        },
+        "postprocess": {
+            "numMeaus": 2000,
+            "postMeasMeth": "measuredict"
+        },
+        "consfilter": false,
+        "simulator": {
+            "conpath": "conf_cpu.json",
+            "set": "qiskit"
+        }
+    }
+}
