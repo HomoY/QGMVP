@@ -50,10 +50,10 @@ class noiseModel(object):
         # ref: https://qiskit.org/documentation/tutorials/simulators/3_building_noise_models.html
         # T1 and T2 values for all qubits
         T1s = np.random.normal(
-            500000e3, 50000e3, self.qubit
+            50e3, 10e3, self.qubit
         )  # Sampled from normal distribution mean 50 microsec
         T2s = np.random.normal(
-            800000e3, 50000e3, self.qubit
+            70e3, 10e3, self.qubit
         )  # Sampled from normal distribution mean 70 microsec
 
         # Truncate random T2s <= T1s
